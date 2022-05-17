@@ -1,21 +1,15 @@
 package com.aamnahkhalid.counter;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-
 import androidx.appcompat.app.AppCompatActivity;
-
-
 public class MainActivity extends AppCompatActivity {
     private int mCounter = 0;
     Button btn;
     TextView txv;
     Button rst;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
                 txv.setText(Integer.toString(mCounter));
             }
         });
-
         rst.setOnClickListener(new View.OnClickListener()
         {
             @Override
