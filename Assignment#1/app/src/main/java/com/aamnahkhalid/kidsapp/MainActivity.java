@@ -38,6 +38,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
                 break;
 
+            case R.id.btn_exam:
+                break;
+
             case R.id.btn_git:
                 Uri uri=Uri.parse("https://github.com/Aamnah-Khalid/Mobile-Computing");
                 intent=new Intent(Intent.ACTION_VIEW,uri);
