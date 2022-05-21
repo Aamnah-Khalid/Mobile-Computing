@@ -39,6 +39,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.btn_exam:
+                intent=new Intent(MainActivity.this,ExamActivity.class);
+                startActivity(intent);
                 break;
 
             case R.id.btn_git:
