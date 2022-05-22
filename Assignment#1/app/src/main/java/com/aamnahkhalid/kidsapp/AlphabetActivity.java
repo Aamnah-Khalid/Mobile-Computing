@@ -2,17 +2,18 @@ package com.aamnahkhalid.kidsapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.ImageView;
 
 public class AlphabetActivity extends AppCompatActivity {
-
+    private static final String TAG="AlphabetActivity";
     ImageView image;
     String letter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alphabet);
-
+        Log.d(TAG, "onCreate: Alphabet Activity");
         image=findViewById(R.id.imageView);
         letter=getIntent().getStringExtra("input");
 
@@ -95,6 +96,46 @@ public class AlphabetActivity extends AppCompatActivity {
             default:
                 image.setImageResource(R.drawable.z);
         }
+    }
+    @Override
 
+    protected void onStart(){
+        super.onStart();
+        Log.d(TAG, " onStart Learning Activity");
+    }
+
+    @Override
+
+    protected void onResume(){
+        super.onResume();
+        Log.d(TAG, " onResume Alphabet Activity");
+    }
+
+    @Override
+
+    protected void onPause(){
+        super.onPause();
+        Log.d(TAG, " onPause Alphabet Activity");
+    }
+
+    @Override
+
+    protected void onStop(){
+        super.onStop();
+        Log.d(TAG, " onStop Alphabet Activity");
+    }
+
+    @Override
+
+    protected void onDestroy(){
+        super.onDestroy();
+        Log.d(TAG, " onDestroy Alphabet Activity");
+    }
+
+    @Override
+
+    protected void onRestart(){
+        super.onRestart();
+        Log.d(TAG, " onRestart Alphabet Activity");
     }
 }
