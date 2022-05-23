@@ -10,11 +10,9 @@
 
     <Button
         android:id="@+id/btn_git"
-        android:layout_width="157dp"
+        android:layout_width="match_parent"
         android:layout_height="66dp"
-        android:layout_marginStart="127dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="127dp"
+        android:layout_marginTop="48dp"
         android:fontFamily="cursive"
         android:text="Github"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
@@ -26,46 +24,45 @@
 
     <Button
         android:id="@+id/btn_exam"
-        android:layout_width="157dp"
+        android:layout_width="match_parent"
         android:layout_height="66dp"
-        android:layout_marginTop="114dp"
-        android:layout_marginEnd="39dp"
+        android:layout_marginTop="46dp"
         android:fontFamily="cursive"
         android:text="Exam"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#3E3B3B"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_learn" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="387dp"
-        android:layout_height="108dp"
-        android:layout_marginTop="12dp"
+        android:layout_width="297dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="53dp"
         android:fontFamily="cursive"
         android:text="Learn To Read!"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display3"
         android:textColor="#9C27B0"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_learn"
-        android:layout_width="157dp"
+        android:layout_width="match_parent"
         android:layout_height="66dp"
-        android:layout_marginStart="41dp"
-        android:layout_marginTop="114dp"
+        android:layout_marginTop="128dp"
         android:fontFamily="cursive"
-        android:layout_marginEnd="17dp"
         android:text="Learn"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#3E3B3B"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/btn_exam"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 

@@ -52,17 +52,17 @@ public class ExamActivity extends AppCompatActivity implements View.OnClickListe
             if(v.getId()==R.id.Op1)
             {
                 CurImg.setImageResource(R.drawable.fan);
-                op1.setText("a)  M");
-                op2.setText("b)  F");
-                op3.setText("c)  Z");
-                op4.setText("d)  P");
+                op1.setText("M");
+                op2.setText("F");
+                op3.setText("Z");
+                op4.setText("P");
                 restoreSettings();
                 mcq++;
                 score++;
             }
             else
             {
-                v.setBackgroundColor(Color.parseColor("#FF0000"));
+                v.setBackgroundColor(Color.parseColor("#fadbd8"));
                 v.setEnabled(false);
             }
 
@@ -73,17 +73,17 @@ public class ExamActivity extends AppCompatActivity implements View.OnClickListe
             {
 
                 CurImg.setImageResource(R.drawable.balloon);
-                op1.setText("a)  D");
-                op2.setText("b)  R");
-                op3.setText("c)  Z");
-                op4.setText("d)  B");
+                op1.setText("D");
+                op2.setText("R");
+                op3.setText("Z");
+                op4.setText("B");
                 restoreSettings();
                 mcq++;
                 score++;
             }
             else
             {
-                v.setBackgroundColor(Color.parseColor("#FF0000"));
+                v.setBackgroundColor(Color.parseColor("#fadbd8"));
                 v.setEnabled(false);
             }
         }
@@ -93,17 +93,17 @@ public class ExamActivity extends AppCompatActivity implements View.OnClickListe
             {
 
                 CurImg.setImageResource(R.drawable.drum);
-                op1.setText("a)  C");
-                op2.setText("b)  D");
-                op3.setText("c)  Z");
-                op4.setText("d)  P");
+                op1.setText("C");
+                op2.setText("D");
+                op3.setText("Z");
+                op4.setText("P");
                 mcq++;
                 score++;
                 restoreSettings();
             }
             else
             {
-                v.setBackgroundColor(Color.parseColor("#ffcccb"));
+                v.setBackgroundColor(Color.parseColor("#fadbd8"));
                 v.setEnabled(false);
             }
 
@@ -114,17 +114,17 @@ public class ExamActivity extends AppCompatActivity implements View.OnClickListe
             {
 
                 CurImg.setImageResource(R.drawable.giraffe);
-                op1.setText("a)  X");
-                op2.setText("b)  G");
-                op3.setText("c)  O");
-                op4.setText("d)  R");
+                op1.setText("X");
+                op2.setText("  G");
+                op3.setText(" O");
+                op4.setText("  R");
                 mcq++;
                 score++;
                 restoreSettings();
             }
             else
             {
-                v.setBackgroundColor(Color.parseColor("#ffcccb"));
+                v.setBackgroundColor(Color.parseColor("#fadbd8"));
                 v.setEnabled(false);
             }
 
@@ -135,17 +135,17 @@ public class ExamActivity extends AppCompatActivity implements View.OnClickListe
             {
 
                 CurImg.setImageResource(R.drawable.lemon);
-                op1.setText("a)  S");
-                op2.setText("b)  D");
-                op3.setText("c)  L");
-                op4.setText("d)  P");
+                op1.setText(" S");
+                op2.setText("  D");
+                op3.setText("  L");
+                op4.setText("  P");
                 mcq++;
                 score++;
                 restoreSettings();
             }
             else
             {
-                v.setBackgroundColor(Color.parseColor("#ffcccb"));
+                v.setBackgroundColor(Color.parseColor("#fadbd8"));
                 v.setEnabled(false);
             }
 
@@ -156,17 +156,17 @@ public class ExamActivity extends AppCompatActivity implements View.OnClickListe
             {
 
                 CurImg.setImageResource(R.drawable.key);
-                op1.setText("a)  K");
-                op2.setText("b)  I");
-                op3.setText("c)  S");
-                op4.setText("d)  Q");
+                op1.setText("  K");
+                op2.setText("  I");
+                op3.setText("  S");
+                op4.setText("  Q");
                 mcq++;
                 score++;
                 restoreSettings();
             }
             else
             {
-                v.setBackgroundColor(Color.parseColor("#ffcccb"));
+                v.setBackgroundColor(Color.parseColor("#fadbd8"));
                 v.setEnabled(false);
             }
 
@@ -177,17 +177,17 @@ public class ExamActivity extends AppCompatActivity implements View.OnClickListe
             {
 
                 CurImg.setImageResource(R.drawable.nest);
-                op1.setText("a)  M");
-                op2.setText("b)  A");
-                op3.setText("c)  N");
-                op4.setText("d)  P");
+                op1.setText("  M");
+                op2.setText("  A");
+                op3.setText("  N");
+                op4.setText("  P");
                 restoreSettings();
                 mcq++;
                 score++;
             }
             else
             {
-                v.setBackgroundColor(Color.parseColor("#ffcccb"));
+                v.setBackgroundColor(Color.parseColor("#fadbd8"));
                 v.setEnabled(false);
             }
         }
@@ -196,17 +196,17 @@ public class ExamActivity extends AppCompatActivity implements View.OnClickListe
             if(v.getId()==R.id.Op3)
             {
                 CurImg.setImageResource(R.drawable.rabbitt);
-                op1.setText("a)  M");
-                op2.setText("b)  R");
-                op3.setText("c)  N");
-                op4.setText("d)  P");
+                op1.setText("  M");
+                op2.setText("  R");
+                op3.setText("  N");
+                op4.setText("  P");
                 restoreSettings();
                 mcq++;
                 score++;
             }
             else
             {
-                v.setBackgroundColor(Color.parseColor("#ffcccb"));
+                v.setBackgroundColor(Color.parseColor("#fadbd8"));
                 v.setEnabled(false);
             }
         }
@@ -216,17 +216,17 @@ public class ExamActivity extends AppCompatActivity implements View.OnClickListe
             {
 
                 CurImg.setImageResource(R.drawable.zip);
-                op1.setText("a)  M");
-                op2.setText("b)  A");
-                op3.setText("c)  Z");
-                op4.setText("d)  P");
+                op1.setText(" M");
+                op2.setText("  A");
+                op3.setText("  Z");
+                op4.setText("  P");
                 restoreSettings();
                 mcq++;
                 score++;
             }
             else
             {
-                v.setBackgroundColor(Color.parseColor("#ffcccb"));
+                v.setBackgroundColor(Color.parseColor("#fadbd8"));
                 v.setEnabled(false);
             }
         }
@@ -241,7 +241,7 @@ public class ExamActivity extends AppCompatActivity implements View.OnClickListe
             }
             else
             {
-                v.setBackgroundColor(Color.parseColor("#ffcccb"));
+                v.setBackgroundColor(Color.parseColor("#fadbd8"));
                 v.setEnabled(false);
             }
         }

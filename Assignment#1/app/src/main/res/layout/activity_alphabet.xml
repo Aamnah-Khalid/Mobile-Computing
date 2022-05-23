@@ -8,11 +8,14 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="402dp"
-        android:layout_height="538dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="308dp"
+        android:layout_height="607dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="81dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.08"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_launcher_background" />
