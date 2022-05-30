@@ -3,8 +3,11 @@ package com.aamnahkhalid.list_view;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -24,6 +27,21 @@ public class MainActivity extends AppCompatActivity {
 
         listView = findViewById(R.id.listView);
         listView.setAdapter(arrayAdapter);
+
+        Button buttonTaskAdd;
+        TextView editTextTask;
+
+        editTextTask=findViewById(R.id.editTextTextPersonName);
+        buttonTaskAdd=findViewById(R.id.button);
+        buttonTaskAdd.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                studentList.add(editTextTask.getText().toString());
+                arrayAdapter.notifyDataSetChanged();
+            }
+        });
 
     }
 }
