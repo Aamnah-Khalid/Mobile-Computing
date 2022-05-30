@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
         studentList.add("Saad");
         studentList.add("Zahid");
         studentList.add("Saeed");
-        studentList.add("Zainab");
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, studentList);
 
         listView = findViewById(R.id.listView);
