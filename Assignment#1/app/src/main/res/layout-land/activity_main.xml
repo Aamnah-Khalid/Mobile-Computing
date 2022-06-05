@@ -7,76 +7,66 @@
     android:background="#FFFFFFCC"
     tools:context=".MainActivity">
 
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/btn_git"
-        android:layout_width="match_parent"
-        android:layout_height="66dp"
-        android:layout_marginTop="48dp"
+        android:layout_width="432dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="cursive"
         android:text="Github"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#3E3B3B"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_exam" />
 
     <Button
         android:id="@+id/btn_exam"
-        android:layout_width="match_parent"
-        android:layout_height="66dp"
-        android:layout_marginTop="46dp"
+        android:layout_width="318dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="52dp"
         android:fontFamily="cursive"
         android:text="Exam"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#3E3B3B"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_learn" />
+        app:layout_constraintStart_toEndOf="@+id/btn_learn"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="297dp"
-        android:layout_height="161dp"
-        android:layout_marginStart="61dp"
-        android:layout_marginTop="35dp"
-        android:layout_marginEnd="53dp"
+        android:layout_width="671dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="4dp"
         android:fontFamily="cursive"
         android:text="Learn To Read!"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display3"
         android:textColor="#9C27B0"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_learn"
-        android:layout_width="match_parent"
-        android:layout_height="66dp"
-        android:layout_marginTop="128dp"
+        android:layout_width="318dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
         android:fontFamily="cursive"
         android:text="Learn"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#3E3B3B"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <ScrollView
-        android:layout_width="21dp"
-        android:layout_height="409dp"
-        tools:layout_editor_absoluteX="710dp"
-        tools:layout_editor_absoluteY="3dp">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" />
-    </ScrollView>
-
 </android.support.constraint.ConstraintLayout>
+

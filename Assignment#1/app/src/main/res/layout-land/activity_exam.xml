@@ -9,10 +9,10 @@
 
     <TextView
         android:id="@+id/question"
-        android:layout_width="310dp"
-        android:layout_height="106dp"
+        android:layout_width="662dp"
+        android:layout_height="52dp"
         android:layout_marginStart="51dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="4dp"
         android:layout_marginEnd="50dp"
         android:fontFamily="cursive"
         android:text="Choose the correct Alphabet"
@@ -20,27 +20,28 @@
         android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.787"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="283dp"
-        android:layout_height="209dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="277dp"
+        android:layout_height="174dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.035"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/question"
         app:srcCompat="@drawable/apple" />
 
     <Button
         android:id="@+id/Op1"
-        android:layout_width="133dp"
-        android:layout_height="79dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="33dp"
-        android:layout_marginEnd="28dp"
+        android:layout_width="127dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="37dp"
         android:text="A"
         android:textAlignment="center"
         android:textAllCaps="false"
@@ -50,15 +51,16 @@
         android:textStyle="bold"
         app:backgroundTint="#fadbd8"
         app:layout_constraintEnd_toStartOf="@+id/Op2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/question" />
 
     <Button
         android:id="@+id/Op4"
-        android:layout_width="133dp"
-        android:layout_height="79dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="52dp"
+        android:layout_width="127dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="80dp"
         android:text="  L  "
         android:textAlignment="center"
         android:textAllCaps="false"
@@ -72,11 +74,11 @@
 
     <Button
         android:id="@+id/Op3"
-        android:layout_width="133dp"
-        android:layout_height="79dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="27dp"
-        android:layout_marginEnd="28dp"
+        android:layout_width="127dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="37dp"
         android:text="  F  "
         android:textAlignment="center"
         android:textAllCaps="false"
@@ -86,15 +88,16 @@
         android:textStyle="bold"
         app:backgroundTint="#fadbd8"
         app:layout_constraintEnd_toStartOf="@+id/Op4"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toBottomOf="@+id/Op1" />
 
     <Button
         android:id="@+id/Op2"
-        android:layout_width="133dp"
-        android:layout_height="79dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="52dp"
+        android:layout_width="127dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="80dp"
         android:text="  Z  "
         android:textAlignment="center"
         android:textAllCaps="false"
@@ -104,14 +107,15 @@
         android:textStyle="bold"
         app:backgroundTint="#fadbd8"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/question" />
 
     <Button
         android:id="@+id/exit"
-        android:layout_width="130dp"
+        android:layout_width="127dp"
         android:layout_height="60dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="52dp"
+        android:layout_marginStart="439dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="162dp"
         android:text="Exit"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
@@ -121,5 +125,7 @@
         android:visibility="visible"
         app:backgroundTint="#fadbd8"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Op4" />
 </android.support.constraint.ConstraintLayout>

@@ -62,7 +62,7 @@ public class ExamActivity extends AppCompatActivity implements View.OnClickListe
             }
             else
             {
-                v.setBackgroundColor(Color.parseColor("#fadbd8"));
+                v.setBackgroundColor(Color.parseColor("#FF0000"));
                 v.setEnabled(false);
             }
 
